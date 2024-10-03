@@ -19,7 +19,7 @@ const StackSection = () => {
 
     const scrollTriggerSettings = {
       trigger: ".main",
-      start: "top 25%",
+      start: "top 40%",
       toggleActions: "play reverse play reverse",
     };
 
@@ -42,7 +42,7 @@ const StackSection = () => {
         scrollTrigger: {
           trigger: ".main",
           start: "top center",
-          end: "150% bottom",
+          end: "300% bottom",
           scrub: true,
           onUpdate: (self) => {
             const progress = self.progress;
@@ -89,15 +89,15 @@ const StackSection = () => {
     for (let i = 1; i <= 3; i++) {
       rows.push(
         <div className="row relative flex justify-center gap-4 w-full" key={i}>
-          <div className="relative rounded-3xl overflow-hidden w-[50%] md:w-[30%] h-[70px] md:h-[360px] card-left">
+          <div className="relative rounded-3xl overflow-hidden w-[50%] md:w-[30%] h-[120px] md:h-[360px] card-left">
             <div
-              className="bg-cover bg-center bg-no-repeat w-full h-full"
+              className="bg-cover bg-center bg-no-repeat rounded-3xl w-full h-full"
               style={{
                 backgroundImage: `url(/images/stack/stack-${2 * i - 1}.jpg)`,
               }}
             />
           </div>
-          <div className="relative rounded-3xl overflow-hidden  w-[50%] md:w-[30%] h-[70px] md:h-[360px] card-right">
+          <div className="relative rounded-3xl overflow-hidden w-[50%] md:w-[30%] h-[120px] md:h-[360px] card-right">
             <div
               className="bg-cover bg-center bg-no-repeat w-full h-full"
               style={{
