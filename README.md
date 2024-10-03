@@ -1,6 +1,6 @@
 <h3 align="center">zennmode-porto.vercel.app</h3> 
 
-<img width="1222" alt="portfolio-1" src="https://zennmode-porto.vercel.app/zenn-porto.png">
+<img width="1222" alt="zenn-porto" src="https://github.com/zaininijar/zenport/blob/main/public/zenn-porto.png?raw=true">
 <hr/>
 
 <h1>Getting Started</h1>
