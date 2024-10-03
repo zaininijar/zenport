@@ -1,6 +1,6 @@
-<h3 align="center">offiongbassey.com.ng</h3> 
+<h3 align="center">zennmode-porto.vercel.app</h3> 
 
-<img width="1222" alt="portfolio-1" src="https://res.cloudinary.com/dfhabqprq/image/upload/v1727884533/offiongbassey_fgpdad.png">
+<img width="1222" alt="portfolio-1" src="https://zennmode-porto.vercel.app/zenn-porto.png">
 <hr/>
 
 <h1>Getting Started</h1>
